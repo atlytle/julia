@@ -189,10 +189,10 @@ include("simdloop.jl")
 importall .SimdLoop
 
 # frontend
-include("Terminals.jl")
-include("LineEdit.jl")
-include("REPLCompletions.jl")
-include("REPL.jl")
+include("terminals.jl")
+include("line_edit.jl")
+include("repl_completions.jl")
+include("repl.jl")
 include("client.jl")
 
 # sparse matrices and linear algebra
